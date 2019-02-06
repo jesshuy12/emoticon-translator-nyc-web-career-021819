@@ -5,7 +5,7 @@ def load_library
   emoticons = YAML.load_file("emoticons.yml")
   new_hash = {"get_meaning" => {}, "get_emoticon" => {}}    # return hash with two new keys, with                                                              inner hash
     emoticons.each do |key, value|
-      value.each do |characters|
+      english, japanese = value
       new_hash["get_emoticon"]
 end
 
