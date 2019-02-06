@@ -2,7 +2,6 @@
 require "yaml"
 
 def load_library(path)
-  emoticons = YAML.load_file(path)
   new_hash = {"get_meaning" => {}, "get_emoticon" => {}}    # return hash with two new keys, with                                                              inner hash
     emoticons.each do |key, value|
       english, japanese = value
