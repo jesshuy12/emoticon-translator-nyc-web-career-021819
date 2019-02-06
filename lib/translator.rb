@@ -8,6 +8,8 @@ def load_library
       english, japanese = value
       new_hash["get_emoticon"][english] = japanese
       new_hash["get_meaning"][japanese] = meaning
+    end
+    return new_hash
 end
 
 def get_japanese_emoticon
