@@ -4,6 +4,7 @@ require "yaml"
 def load_library
   emoticons = YAML.load_file("emoticons.yml")
   new_hash = {"get_meaning" => {}, "get_emoticon" => {}}    # return hash with two new keys, with                                                              inner hash
+    emoticons.each do 
 end
 
 def get_japanese_emoticon
