@@ -28,5 +28,5 @@ def get_english_meaning(path, emoticon)
       return value                                    #if match, return the japanese version "value"
     end
   end
-  return "Sorry, that meaning was not found"         #if not match
+  return "Sorry, that emoticon was not found"         #if not match
 end
