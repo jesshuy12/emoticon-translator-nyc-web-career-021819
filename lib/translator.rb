@@ -12,7 +12,7 @@ def load_library(path)
 end
 
 def get_japanese_emoticon(path, emoticon)    #two arguements, path and emoticon
-  library = load_library(path)
+  library = load_library(path)               #calling load_library
 end
 
 def get_english_meaning
