@@ -16,6 +16,9 @@ def get_japanese_emoticon(path, emoticon)    #two arguements, path and emoticon
   ilbrary["get_emoticon"].each do |key, value|
     if key == emoticon
       return value
+    end
+  end
+  return ""
 end
 
 def get_english_meaning
