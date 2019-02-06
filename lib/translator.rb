@@ -11,8 +11,8 @@ def load_library(path)
     return new_hash
 end
 
-def get_japanese_emoticon(path, emoticon)    #two arguements, path and emoticon
-  library = load_library(path)               #calling load_library
+def get_japanese_emoticon(path, emoticon)             #two arguements, path and emoticon
+  library = load_library(path)                        #calling load_library
   ilbrary["get_emoticon"].each do |english, japanese|
     if english == emoticon
       return japanese
