@@ -6,7 +6,7 @@ def load_library(path)
   new_hash = {"get_meaning" => {}, "get_emoticon" => {}}    # return hash with two new keys, with                                                              inner hash
       emoticons.each do |key, value|
         new_hash["get_emoticon"][value[1]] = key
-        new_hash["get_meaning"][japanese] = meaning
+        new_hash["get_meaning"][value[0]] = value[1]
     end
     return new_hash
 end
