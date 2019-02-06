@@ -13,7 +13,8 @@ end
 
 def get_japanese_emoticon(path, emoticon)    #two arguements, path and emoticon
   library = load_library(path)               #calling load_library
-  ilbrary["get_emoticon"]
+  ilbrary["get_emoticon"].each do |key, value|
+    
 end
 
 def get_english_meaning
